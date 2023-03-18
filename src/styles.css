@@ -1,0 +1,139 @@
+* {
+    /* border: 1px solid red; */
+    border-collapse: collapse;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+/* >> BUTTONS <<*/
+.btn {
+    border: none;
+    border-radius: 5px;
+    color: rgb(255,255,255);
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn-blue {
+    background-color: rgb(90, 150, 235);
+}
+
+.btn-blue:hover {
+    background-color: rgb(90, 175, 235);
+} 
+
+.btn-green {
+    background-color: rgb(15, 150, 35);
+}
+
+.btn-green:hover {
+    background-color: rgb(15, 175, 35);
+}
+
+.btn-orange {
+    background-color: rgb(220, 150, 60);
+}
+
+.btn-orange:hover {
+    background-color: rgb(220, 175, 60);
+} 
+
+.btn-red {
+    background-color: rgb(220, 35, 20);
+}
+
+.btn-red:hover {
+    background-color: rgb(220, 60, 20);
+} 
+
+/* >> HEADER <<*/
+.app {
+    border-radius: 10px;
+    box-shadow: 0 0 20px -1px rgb(0,0,0);
+    margin: 10px auto;
+    width: 600px;
+}
+
+.app-header {
+    align-items: center;
+    background-color: rgb(27, 128, 41);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    font-size: 13px;
+    padding: 10px;
+}
+
+.app-header-logo {
+    filter: invert(1);
+    text-align: center;
+    width: 40%;
+}
+
+.app-header-details {
+    text-align: left;
+    width: 60%;
+}
+
+td, th {
+    font-weight: 500;
+    padding: 3px;
+}
+
+td {
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    padding-left: 20px;
+}
+
+/* >> BODY <<*/
+.app-form, .app-ver {
+    border-top: 10px double rgb(27, 128, 41);
+    border-bottom: 10px double rgb(27, 128, 41);
+    height: 700px;
+    padding: 30px;
+}
+
+label, input {
+    margin-bottom: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input {
+    width: 300px;
+}
+
+input[type="radio"] {
+    width: 10px;
+}
+
+p {
+    margin: 20px 0;
+}
+
+/* >> FOOTER <<*/
+.app-footer {
+    background-color: rgb(27, 128, 41);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 5px;
+}

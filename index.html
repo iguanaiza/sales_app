@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="src/styles.css">
+
+    <title>Sales app</title>
+</head>
+<body>
+    <div class="app">
+        <div class="app-header">
+
+            <div class="app-header-details">
+                <table>
+                        <tr>
+                            <th>Project name:</th>
+                            <td id="project-name">SN25</td>
+                        </tr>
+                        <tr>
+                            <th>List name:</th>
+                            <td id="list-name">list_sn25_20230301_abcd123</td>
+                        </tr>
+                        <tr>
+                            <th>Attempts:</th>
+                            <td id="attempts">5</td>
+                        </tr>
+                        <tr>
+                            <th>Sale ID:</th>
+                            <td id="sale-ID">123456789</td>
+                        </tr>
+                        <tr>
+                            <th>Phone number:</th>
+                            <td id="phone-number">0048987654321</td>
+                        </tr>
+                </table>
+            </div>
+
+            <div class="app-header-logo">
+                <img src="src/brand-image.png" width="150" height="150"/>
+            </div>
+        </div>
+
+        <div class="app-form">
+            <form name="sales-form" action="" method="POST">
+                <label for="fname">Name:</label>
+                <input type="text" id="fname" name="fname" required/><br/>
+
+                <label for="lname">Surame:</label>
+                <input type="text" id="lname" name="lname" required/><br/>
+
+                <label>Sex:</label>
+                <label><input type="radio" name="sex" value="Mr." checked/> Mr.</label>
+                <label><input type="radio" name="sex" value="Ms."/> Ms.</label><br/>
+
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required/><br/>
+
+                <label for="street">Street:</label>
+                <input type="text" id="street" name="street" required/><br/>
+
+                <label for="house-nr">House:</label>
+                <input type="text" id="street" name="street" required/><br/>
+
+                <button id="btn-confirm" class="btn btn-green">Confirm</button>
+            </form>
+        </div>
+
+        <div class="app-ver hidden">
+            <h2>Verification script</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab nobis, sunt ut, nesciunt rerum quaerat tempore consequuntur neque quod quae, iure recusandae! Suscipit accusantium quae vitae autem earum? Rem, est ab aspernatur doloremque sequi totam consequuntur iusto voluptates modi odit impedit nostrum ex voluptatem nisi dolore magni aperiam obcaecati!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab nobis, sunt ut, nesciunt rerum quaerat tempore consequuntur neque quod quae, iure recusandae! Suscipit accusantium quae vitae autem earum? Rem, est ab aspernatur doloremque sequi totam consequuntur iusto voluptates modi odit impedit nostrum ex voluptatem nisi dolore magni aperiam obcaecati!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab nobis, sunt ut, nesciunt rerum quaerat tempore consequuntur neque quod quae, iure recusandae! Suscipit accusantium quae vitae autem earum? Rem, est ab aspernatur doloremque sequi totam consequuntur iusto voluptates modi odit impedit nostrum ex voluptatem nisi dolore magni aperiam obcaecati!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab nobis, sunt ut, nesciunt rerum quaerat tempore consequuntur neque quod quae, iure recusandae! Suscipit accusantium quae vitae autem earum? Rem, est ab aspernatur doloremque sequi totam consequuntur iusto voluptates modi odit impedit nostrum ex voluptatem nisi dolore magni aperiam obcaecati!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab nobis, sunt ut, nesciunt rerum quaerat tempore consequuntur neque quod quae, iure recusandae! Suscipit accusantium quae vitae autem earum? Rem, est ab aspernatur doloremque sequi totam consequuntur iusto voluptates modi odit impedit nostrum ex voluptatem nisi dolore magni aperiam obcaecati!</p>
+            
+            <button id="btn-back" class="btn btn-blue">Back</button>
+            <input type="submit" id="btn-submit" class="btn btn-green" form="sales-form" value="Submit"/>        
+        </div>
+
+        <div class="app-footer">
+            <button id="btn-declined" class="btn btn-red">Declined sale</button>
+            <button id="btn-recall" class="btn btn-blue">Recall</button>
+            <button id="btn-other" class="btn btn-orange">Other status</button>
+        </div>
+    </div>
+<script src="src/main.js"></script>
+</body>
+</html>
