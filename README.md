@@ -1,17 +1,17 @@
 # sales_app
-https://iguanaiza.github.io/sales_app/
+The application can be tested at: https://iguanaiza.github.io/sales_app/
 
 Simple sales app - no PHP used, just layout.
 **Work in progress.**
 
 About
 ---------------
-The app is designed for callcenter industry. The original idea comes from my previous work - I wanted to recreate the app design.
-Originally app takes customer's data from database - like name, address, contact and then updates it if necesarry (depending on closing status). This project hasn't any relation with database - it's just layout.
+The application is designed to simulate a call-centre's sales' platform. It is supposed to be handled by an agent gathering the necessary data from the customer during a phone call. The original idea comes from my previous work - I wanted to recreate the app design.
+Originally the application takes the customer's data from the database - like name, address or contact (phone, email) and then updates it if necesarry - according to the data gatehred from the customer (depending on closing status). The application is just a layout and is not connected to any database.
 
-Header contains data about the lead loaded - project name, list name, phone number etc. + logo of the main project.
+The header contains the data about the lead loaded - the project's name, the list's (database) name, the phone number etc. + the logo of the main group of projects.
 
-The body contains customer's data + some additional fields depending on sale (like postpone delivery, detailes about sale, product selection). Some of this data is reprinted in "verification" div, which is displayed when "next" button is clicked. Under the verification there are 2 buttons - "back" (return to form) and "confirm sale" (save sale and send data to database). 
+The body contains the customer's data and some additional fields depending on the sale (like postponed delivery, detailes about the sale, the product's selection). Some of this data is repeated in "verification" div, which is displayed when "next" button is clicked. Under the verification there are two buttons - "back" (return to the form) and "confirm sale" (save the sale and send the data to the database).
 
 The footer contains other options - "no sale" when customer doesn't want to buy anything (then the pop-up with no reasons listed appears), "other" when there is no sale but not depending on customer (like bad number) and "callback" - used when the call is interrupted.
 
@@ -22,6 +22,7 @@ Header **[done]**:
 - project logo **[done]**
 
 Body:
+- product selection: doesn't exist yet
 - form: still missing few inputs and validiation (like additional fields depending on other data)
 - button "next": clickable, moves user to verification, needs positioning
 - verificaton page **[done]**
@@ -30,5 +31,6 @@ Body:
 
 Footer:
 - button "no sale": needs to add pop-up with few 'no reasons', still needs positioning
+- 'no reasons': : doesn't exist yet
 - button "other": needs to add some kind of action like confirmation of saving record, needs positioning
 - button "callback": needs to add some kind of action like confirmation of recalling, needs positioning
