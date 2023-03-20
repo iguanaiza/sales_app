@@ -1,3 +1,17 @@
+:root {
+    --appColorBackground: rgb(27, 128, 41);
+    --btnCallback: rgb(90, 150, 235);
+    --btnCallbackHover: rgb(90, 175, 235);
+    --btnConfirm: rgb(15, 150, 35);
+    --btnConfirmHover: rgb(15, 175, 35);
+    --btnNextBack: rgb(190, 170, 110);
+    --btnNextBackHover: rgb(190, 195, 110);
+    --btnNo: rgb(220, 35, 20);
+    --btnNoHover: rgb(220, 60, 20);
+    --btnOther: rgb(220, 175, 60);
+    --btnOtherHover: rgb(220, 200, 60);
+}
+
 * {
     /* border: 1px solid red; */
     border-collapse: collapse;
@@ -23,6 +37,7 @@ body {
     border-radius: 5px;
     color: rgb(255,255,255);
     font-weight: 700;
+    height: 40px;
     letter-spacing: 0.3px;
     margin: 5px;
     padding: 10px;
@@ -31,38 +46,47 @@ body {
 
 .btn:hover {
     cursor: pointer;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,0.2), 0 5px 5px 0 rgba(0,0,0,0.2);
 }
 
-.btn-blue {
-    background-color: rgb(90, 150, 235);
+.btn-callback {
+    background-color: var(--btnCallback);
 }
 
-.btn-blue:hover {
-    background-color: rgb(90, 175, 235);
+.btn-callback:hover {
+    background-color: var(--btnCallbackHover);
 } 
 
-.btn-green {
-    background-color: rgb(15, 150, 35);
+.btn-confirm {
+    background-color: var(--btnConfirm);
 }
 
-.btn-green:hover {
-    background-color: rgb(15, 175, 35);
+.btn-confirm:hover {
+    background-color: var(--btnConfirmHover);
 }
 
-.btn-orange {
-    background-color: rgb(220, 150, 60);
+.btn-other {
+    background-color: var(--btnOther);
 }
 
-.btn-orange:hover {
-    background-color: rgb(220, 175, 60);
+.btn-other:hover {
+    background-color: var(--btnOtherHover);
 } 
 
-.btn-red {
-    background-color: rgb(220, 35, 20);
+.btn-next-back {
+    background-color: var(--btnNextBack);
 }
 
-.btn-red:hover {
-    background-color: rgb(220, 60, 20);
+.btn-next-back:hover {
+    background-color: var(--btnNextBackHover);
+} 
+
+.btn-no {
+    background-color: var(--btnNo);
+}
+
+.btn-no:hover {
+    background-color: var(--btnNoHover);
 } 
 
 /* >> HEADER <<*/
@@ -75,7 +99,7 @@ body {
 
 .app-header {
     align-items: center;
-    background-color: rgb(27, 128, 41);
+    background-color: var(--appColorBackground);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     color: rgb(255, 255, 255);
@@ -109,8 +133,8 @@ td {
 
 /* >> BODY <<*/
 .app-form, .app-ver {
-    border-top: 10px double rgb(27, 128, 41);
-    border-bottom: 10px double rgb(27, 128, 41);
+    border-top: 10px double var(--appColorBackground);
+    border-bottom: 10px double var(--appColorBackground);
     height: 700px;
     padding: 20px;
 }
@@ -163,7 +187,7 @@ p {
 
 /* >> FOOTER <<*/
 .app-footer {
-    background-color: rgb(27, 128, 41);
+    background-color: var(--appColorBackground);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 5px 20px;

@@ -77,13 +77,13 @@ function getData(){
 }
 
 //BUTTONS
-const btnConfirm = document.querySelector("#btn-confirm");
 const btnBack = document.querySelector("#btn-back");
-const btnDeclined = document.querySelector("#btn-declined");
-const btnRecall = document.querySelector("#btn-recall");
+const btnCallback = document.querySelector("#btn-callback");
+const btnNext = document.querySelector("#btn-next");
+const btnNo = document.querySelector("#btn-no");
 const btnOther = document.querySelector("#btn-other");
 
-btnConfirm.addEventListener("click", () => {    
+btnNext.addEventListener("click", () => {    
     hideForm();
     getData();    
 })
