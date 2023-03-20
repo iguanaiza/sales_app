@@ -23,11 +23,7 @@ body {
     font-family: sans-serif;
 }
 
-.hidden {
-    display: none;
-}
-
-.not {
+.hidden, .switchVer {
     display: none;
 }
 
@@ -159,6 +155,17 @@ label {
     width: 50px;
 }
 
+.label-product {
+    text-align: left;
+    margin-left: 160px;
+    width: 300px;
+}
+
+.label-product:first {
+    text-align: left;
+    width: 300px;
+}
+
 input {
     font-size: 14px;
     width: 300px;
@@ -177,12 +184,12 @@ input[type="radio"] {
 }
 
 p {
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .app-ver-data {
     font-weight: 600;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 
 /* >> FOOTER <<*/
