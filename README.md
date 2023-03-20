@@ -2,9 +2,10 @@
 https://iguanaiza.github.io/sales_app/
 
 Simple sales app - no PHP used, just layout.
-Work in progress.
+**Work in progress.**
+
+About
 ---------------
-About:
 The app is designed for callcenter industry. The original idea comes from my previous work - I wanted to recreate the app design.
 Originally app takes customer's data from database - like name, address, contact and then updates it if necesarry (depending on closing status). This project hasn't any relation with database - it's just layout.
 
@@ -14,7 +15,7 @@ The body contains customer's data + some additional fields depending on sale (li
 
 The footer contains other options - "no sale" when customer doesn't want to buy anything (then the pop-up with no reasons listed appears), "other" when there is no sale but not depending on customer (like bad number) and "callback" - used when the call is interrupted.
 
-Project progress:
+Project progress
 ---------------
 Header **[done]**:
 - project data is just some values hardcoded in the html table, but each <td> has it's own ID **[done]**
