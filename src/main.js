@@ -68,6 +68,21 @@ function getData(){
         else verField.innerHTML = formField;
     }
 }
+
+//BUTTONS
+const btnBack = document.querySelector("#btn-back");
+const btnCallback = document.querySelector("#btn-callback");
+const btnNext = document.querySelector("#btn-next");
+const btnNo = document.querySelector("#btn-no");
+const btnOther = document.querySelector("#btn-other");
+
+btnNext.addEventListener("click", () => {    
+    hideForm();
+    getData();    
+});
+
+btnBack.addEventListener("click", hideVer);
+
 /*function getData(){
     const formProduct = document.querySelector('input[name="product"]:checked').value;
     const formTitle = document.querySelector('input[name="title"]:checked').value;
@@ -123,17 +138,3 @@ function getData(){
     }
     else verEmail.classList.add("hidden");
 }*/
-
-//BUTTONS
-const btnBack = document.querySelector("#btn-back");
-const btnCallback = document.querySelector("#btn-callback");
-const btnNext = document.querySelector("#btn-next");
-const btnNo = document.querySelector("#btn-no");
-const btnOther = document.querySelector("#btn-other");
-
-btnNext.addEventListener("click", () => {    
-    hideForm();
-    getData();    
-});
-
-btnBack.addEventListener("click", hideVer);
