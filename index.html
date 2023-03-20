@@ -46,6 +46,27 @@
         <div class="app-form">
             <form id="sales-form" name="sales-form" onsubmit="return false">
 
+                <label>*Product</label>
+                <div id="product-div-1" class="hidden">
+                    <label class="label-title label-product"><input type="radio" name="product" value="Product 1" required checked/> <span id="product1"></span></label><br/>
+                </div>
+                <div id="product-div-2" class="hidden">
+                    <label class="label-title label-product"><input type="radio" name="product" value="Product 2" required/>  <span id="product2"></span></label><br/>
+                </div>
+                <div id="product-div-3" class="hidden">
+                    <label class="label-title label-product"><input type="radio" name="product" value="Product 3" required/> <span id="product3"></span></label><br/>
+                </div>
+                <div id="product-div-4" class="hidden">
+                    <label class="label-title label-product"><input type="radio" name="product" value="Product 4" required/> <span id="product4"></span></label><br/>
+                </div>
+                <div id="product-div-5" class="hidden">
+                    <label class="label-title label-product"><input type="radio" name="product" value="Product 5" required/> <span id="product5"></span></label><br/>
+                </div>
+                <div id="product-div-6" class="hidden">
+                    <label class="label-title label-product"><input type="radio" name="product" value="Product 6" required/>
+                    <span id="product6"></span></label><br/>
+                </div>
+                
                 <label>*Title</label>
                 <label class="label-title"><input type="radio" name="title" value="Mr." required/> Mr.</label>
                 <label class="label-title"><input type="radio" name="title" value="Ms." required/> Ms.</label>
@@ -84,10 +105,10 @@
                 <button id="btn-next" class="btn btn-next-back">Next</button>    
         </div>
 
-        <div class="app-ver hidden">
+        <div class="app-ver switchVer">
             <h2>Verification script</h2>
 
-            <p>Thank you - before we start the summary let me confirm your data:</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit:</p>
             <p class="app-ver-data">
                 <span id="app-ver-title"></span>
                 <span id="app-ver-name"></span>
@@ -104,8 +125,8 @@
             <p id="app-ver-phone" class="app-ver-data"></p>
             <p id="app-ver-email" class="app-ver-data"></p>
 
-            <p>Is it correct?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab nobis, sunt ut, nesciunt rerum quaerat tempore consequuntur neque quod quae, iure recusandae! Suscipit accusantium quae vitae autem earum? Rem, est ab aspernatur doloremque sequi totam consequuntur iusto voluptates modi odit impedit nostrum ex voluptatem nisi dolore magni aperiam obcaecati!</p>
+            <p>Lorem ipsum dolor?</p>
+            <p>Lorem ipsum dolor sit amet <span id="app-ver-product" class="app-ver-data"></span> consectetur adipisicing elit. Suscipit ab nobis, sunt ut, nesciunt rerum quaerat tempore consequuntur neque quod quae, iure recusandae! Suscipit accusantium quae vitae autem earum? Rem, est ab aspernatur doloremque sequi totam consequuntur iusto voluptates modi odit impedit nostrum ex voluptatem nisi dolore magni aperiam obcaecati!</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab nobis, sunt ut, nesciunt rerum quaerat tempore consequuntur neque quod quae, iure recusandae! Suscipit accusantium quae vitae autem earum? Rem, est ab aspernatur doloremque sequi totam consequuntur iusto voluptates modi odit impedit nostrum ex voluptatem nisi dolore magni aperiam obcaecati!</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit ab nobis, sunt ut, nesciunt rerum quaerat tempore consequuntur neque quod quae, iure recusandae! Suscipit accusantium quae vitae autem earum? Rem, est ab aspernatur doloremque sequi totam consequuntur iusto voluptates modi odit impedit nostrum ex voluptatem nisi dolore magni aperiam obcaecati!</p>
             
@@ -120,5 +141,6 @@
         </div>
     </div>
 <script src="src/main.js"></script>
+<script src="src/products.js"></script>
 </body>
 </html>
