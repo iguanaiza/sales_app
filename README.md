@@ -6,14 +6,14 @@ Simple sales app - no PHP used, just layout.
 
 About
 ---------------
-The application is designed to simulate a call-centre's sales' platform. It is supposed to be handled by an agent gathering the necessary data from the customer during a phone call. The original idea comes from my previous work - I wanted to recreate the app design.
-Originally the application takes the customer's data from the database - like name, address or contact (phone, email) and then updates it if necesarry - according to the data gatehred from the customer (depending on closing status). The application is just a layout and is not connected to any database.
+  **The application** is designed to simulate a call-centre's sales' platform. It is supposed to be handled by an agent gathering the necessary data from the customer during a phone call. The original idea comes from my previous work - I wanted to recreate the app design.
+  Originally the application takes the customer's data from the database - like name, address or contact (phone, email) and then updates it if necesarry - according to the data gatehred from the customer (depending on closing status). The application is just a layout and is not connected to any database.
 
-The header contains the data about the lead loaded - the project's name, the list's (database) name, the phone number etc. + the logo of the main group of projects.
+  **The header** contains the data about the record loaded - the project's name, the database's name (list name), the phone number etc. + the logo of the main project.
 
-The body contains the customer's data and some additional fields depending on the sale (like postponed delivery, detailes about the sale, the product's selection). Some of this data is repeated in "verification" div, which is displayed when "next" button is clicked. Under the verification there are two buttons - "back" (return to the form) and "confirm sale" (save the sale and send the data to the database).
+  **The body** contains the customer's data and some additional fields depending on the sale (like postponed delivery, detailes about the sale, the product's selection). Some of this data is repeated in "verification" div, which is displayed when "next" button is clicked. Under the verification there are two buttons - "back" (return to the form) and "confirm sale" (save the sale and send the data to the database).
 
-The footer contains other options - "no sale" when customer doesn't want to buy anything (then the pop-up with no reasons listed appears), "other" when there is no sale but not depending on customer (like bad number) and "callback" - used when the call is interrupted.
+  **The footer** contains other options - "no sale" when customer doesn't want to buy anything (with a pop-up listing the reasons for that appearing afterwards), "other" when there is no sale but not depending on customer (like a bad number) and "callback" when used if the call was interrupted.
 
 Project progress
 ---------------
