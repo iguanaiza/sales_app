@@ -22,7 +22,7 @@ Header **[done]**:
 - project logo **[done]**
 
 Body:
-- product selection: doesn't exist yet
+- product selection **[done]** (seperated .js file for product list)
 - form: still missing few inputs and validiation (like additional fields depending on other data)
 - button "next": clickable, moves user to verification, needs positioning
 - verificaton page **[done]**
