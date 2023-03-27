@@ -11,7 +11,7 @@ About
 
  **The body** contains the customer's data and some additional fields depending on the sale (like if the delivery is postponed, the details about the sale, the product's selection). Some of this data is repeated in the "verification" div, which is displayed when the "next" button is clicked. Under the verification, there are two buttons - "back" (return to the form) and "confirm sale" (save the sale and send the data to the database).
 
- **The footer** contains other options - "no sale" when customer doesn't want to buy anything (with a pop-up listing the reasons for that appearing afterwards), "other" when there is no sale but not depending on customer (like a bad number) and "callback" used if the call was interrupted..
+ **The footer** contains other options - "no sale" when customer doesn't want to buy anything (with a pop-up listing the reasons for that appearing afterwards), "other" when there is no sale but not depending on customer (like a bad number) and "callback" used if the call was interrupted.
 
 Project progress
 ---------------
