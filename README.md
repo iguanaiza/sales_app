@@ -22,13 +22,13 @@ Header **[done]**:
 Body:
 - product selection **[done]** (a separate .js file for the product list)
 - the form: still missing a few inputs, the basic validiation is done
-- the "next" button: clickable, moves the user to the verification,  still needs the proper positioning
+- the "next" button: clickable, moves the user to the verification, still needs the proper positioning
 - the verificaton page **[done]**
 - the "back" button: clickable, moves the user to the form, still needs the proper positioning
 - the"confirm" button: requires adding some kind of an action like a confirmation of saving the sale, still needs the proper positioning
 
 Footer:
-- the "no sale" button: requires adding a pop-up with a '"no" reasons' list (one to select), still needs the proper positioning
+- the "no sale" button: requires adding a pop-up with a '"no" reasons' list (one to select)
 - the '"no" reasons' list: doesn't exists yet
-- the "other" button: requires adding some kind of an action like a confirmation of the saving of the record, still needs the proper positioning
-- the "callback" button: requires adding some kind of an action like a confirmation of the recalling, still needs the proper positioning
+- the "other" button: requires adding some kind of an action like a confirmation of the saving of the record
+- the "callback" button: requires adding some kind of an action like a confirmation of the recalling
