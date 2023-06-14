@@ -1,4 +1,4 @@
-//PRODUCT LIST (max 5)
+//PRODUCT LIST (max 5 items, min. characters in name is 3)
 const products = [
     "Product 1",
     "Product 2",
@@ -8,7 +8,7 @@ const products = [
     "Product 6"
 ];
 
-//PRODUCT ASSIGNATION
+//PRODUCT ASSIGNATION FOR FORM
 for (i=0; i<products.length; i++) {
     if (products.length > 6) {
         break;
@@ -20,18 +20,10 @@ for (i=0; i<products.length; i++) {
     const formProduct = document.querySelector("#product"+x);
     const hideProduct = document.querySelector("#product-div-"+x);
 
-    if (products[i].length <= 3) {
+    if (products[i].length <= 3) { //min. product name lenght is 3 char.
         continue;
     }
 
     hideProduct.classList.remove("hidden");
     formProduct.innerHTML = products[i];
 }
-
-/*const formProduct1 = document.querySelector("#product1");
-const formProduct2 = document.querySelector("#product2");
-const formProduct3 = document.querySelector("#product3");
-
-formProduct1.innerHTML = products[0];
-formProduct2.innerHTML = products[1];
-formProduct3.innerHTML = products[2];*/
